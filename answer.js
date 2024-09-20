@@ -11,7 +11,7 @@ data = [10, 20, 30, 40]
 result = calculate_average(data)
 print("The average is: " + str(result))
 `;
-
+console.log(ans);
 document.getElementById("but").addEventListener("click", function() {
     if (ans.trim() === submit_but.value.trim()) {
         window.location.href = "https://forms.gle/Nt5FB4Zkg9Fzoffo9"  

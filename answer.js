@@ -1,8 +1,6 @@
 let submit_but = document.getElementById("text");
-let ans = `
+let ans = '
 def calculate_average(numbers):
-    if not numbers:
-        return "No numbers provided"
     total = sum(numbers)
     avg = total / len(numbers)
     return avg

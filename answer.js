@@ -4,7 +4,6 @@ def calculate_average(numbers):
     total = sum(numbers)
     avg = total / len(numbers)
     return avg
-
 data = [10, 20, 30, 40]
 result = calculate_average(data)
 print("The average is: " + str(result))

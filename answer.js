@@ -1,5 +1,5 @@
 let submit_but = document.getElementById("text");
-let ans = '
+let ans = 
 def calculate_average(numbers):
     total = sum(numbers)
     avg = total / len(numbers)
@@ -7,7 +7,7 @@ def calculate_average(numbers):
 data = [10, 20, 30, 40]
 result = calculate_average(data)
 print("The average is: " + str(result))
-`;
+
 
 document.getElementById("but").addEventListener("click", function() {
     if (ans.trim() === submit_but.value.trim()) {
